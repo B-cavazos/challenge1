@@ -1,3 +1,38 @@
+body{
+    background-color: black;
+}
+
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: cornsilk;
+}
+
+.icon{
+    background-image: url(/img/icon.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.nav-item{
+    background-color: lightseagreen;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 7px;
+    font-family: 'Sen', sans-serif;
+    font-weight: 300;
+
+}
+
+.nav-link{
+    color: black;
+}
+
+.active{
+    color: white;
+}
+
 h1{
     font-family: 'Sen', sans-serif;
     font-weight: 700;
@@ -8,7 +43,6 @@ h1{
     background-image: url(/img/jumbo_bokeh.jpg);
     background-position: center;
     background-size: cover;
-    background-blend-mode: overlay;
     height: 650px;
     color: white;
 }
@@ -16,3 +50,4 @@ h1{
 .jumbo-text{
     margin-top: 225px;
 }
+
