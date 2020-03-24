@@ -1,5 +1,7 @@
 body{
     background-color: black;
+    margin-top: 0px;
+    font-family: 'Sen', sans-serif;
 }
 
 .header{
@@ -11,8 +13,12 @@ body{
 .icon{
     background-image: url(/img/icon.jpg);
     background-size: 50px;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 50px;
+    height: 45px;
+    width:45px;
+    border-radius: 50px;
+    margin: 2px 0px 0px 4px;
 }
 
 .nav-item{
@@ -22,11 +28,24 @@ body{
     margin-right: 7px;
     font-family: 'Sen', sans-serif;
     font-weight: 300;
+    height: 25px;
+    width: 60px;
 
+}
+
+ul{
+    font-size: 11px;
+}
+
+.hover{
+    background-color: khaki;
 }
 
 .nav-link{
     color: black;
+    width: 30px;
+    top: 5px;
+    padding:0px !important;
 }
 
 .active{
@@ -43,11 +62,27 @@ h1{
     background-image: url(/img/jumbo_bokeh.jpg);
     background-position: center;
     background-size: cover;
+    border-radius: 0 !important;
     height: 650px;
     color: white;
+    margin: 0px;
 }
 
 .jumbo-text{
     margin-top: 225px;
 }
 
+.footer{
+    background-color: cadetblue;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.footer-info{
+    padding-top: 60px;
+    font-weight: 700;
+}
+
+.social-margin{
+    margin-right: 15px;
+}
