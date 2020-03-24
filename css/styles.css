@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+}
+
+.jumbotron{
+    background-color: grey;
+    background-image: url(/img/jumbo_bokeh.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 650px;
+    color: white;
+}
+
+.jumbo-text{
+    margin-top: 225px;
+}
